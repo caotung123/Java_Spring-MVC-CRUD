@@ -1,0 +1,21 @@
+CREATE TABLE `testdb`.`emp99` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(20)  NOT NULL DEFAULT '',
+  `salary` float NOT NULL DEFAULT '0',
+  `designation` varchar(20)  NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB
+
+CREATE TABLE `testdb`.`employge` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `fullName` varchar(20) NOT NULL DEFAULT '',
+  `birthDay` date NOT NULL DEFAULT '1995-01-01',
+  `isMale` tinyint(1) NOT NULL DEFAULT '1',
+  `phone` varchar(15) DEFAULT NULL,
+  `dept` int DEFAULT NULL,
+  `mailAdrress` varchar(20)  NOT NULL DEFAULT '',
+  `office` varchar(20) NOT NULL DEFAULT '',
+  `dayWorkStart` date NOT NULL DEFAULT '2000-01-01',
+  `isDelete` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB 
