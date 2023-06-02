@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.testweb.qlns</groupId>
+  <artifactId>demo-qlns</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230601214822</lastUpdated>
+  </versioning>
+</metadata>
